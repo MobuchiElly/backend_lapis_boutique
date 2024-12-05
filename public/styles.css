@@ -1,0 +1,79 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Header styles */
+header h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Main content */
+.instructions {
+    margin: 30px auto;
+}
+
+.instructions h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.instructions p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* API Link button */
+.api-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.api-link:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #7f8c8d;
+}
